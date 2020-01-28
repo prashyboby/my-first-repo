@@ -17,6 +17,7 @@ print(area)
 
 type(4.3) == float
 
+#This is goddamn slow
 
 
 #%%
