@@ -8,7 +8,7 @@ Created on Wed Jan 22 08:29:04 2020
 
 #%%
 def area_of_square(side):
-    return side ** 2
+    return side / 2
     #area = side ** 2
     #print(area)
 
