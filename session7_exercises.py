@@ -17,7 +17,7 @@ def my_func():
         
     return my_list
 
-my_func()
+my_list = my_func()
 
 
 #%%
@@ -31,3 +31,12 @@ range_func(10)
 
 #%%
 def max_in_list(custom_list):
+    temp = -1
+    for i in custom_list:
+        if(i > temp):
+            temp = i
+            
+    return temp
+
+max_in_list(my_list)
+        
