@@ -18,3 +18,16 @@ def my_func():
     return my_list
 
 my_func()
+
+
+#%%
+
+def range_func(param):
+    for i in range(param,-1,-1):
+        print(i)
+    
+    
+range_func(10)
+
+#%%
+def max_in_list(custom_list):
