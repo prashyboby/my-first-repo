@@ -39,4 +39,15 @@ def max_in_list(custom_list):
     return temp
 
 max_in_list(my_list)
+
+#%%
+def min_in_list(custom_list):
+    temp = custom_list[0]
+    for i in custom_list:
+        if(i < temp):
+            temp = i
+            
+    return temp
+
+min_in_list(my_list)
         
